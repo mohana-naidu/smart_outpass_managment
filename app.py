@@ -1236,8 +1236,7 @@ def home():
     cursor = None
 
     try:
-        return
-render_template("index.html")
+        return render_template("index.html")
 
         connection = get_db_connection()
         cursor = connection.cursor()
