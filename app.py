@@ -1234,7 +1234,6 @@ def ensure_database_compatibility():
 def home():
     return
 render_template("index.html")   
-
     connection = None
     cursor = None
 
