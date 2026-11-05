@@ -1233,7 +1233,7 @@ def ensure_database_compatibility():
 @app.route("/")
 def home():
     return
- render_template("index.html")   
+render_template("index.html")   
 
     connection = None
     cursor = None
