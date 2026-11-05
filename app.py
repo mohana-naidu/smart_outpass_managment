@@ -1231,13 +1231,13 @@ def ensure_database_compatibility():
 # ============================================================
 
 @app.route("/")
-def home():
-    return
-render_template("index.html")   
+def home():  
     connection = None
     cursor = None
 
     try:
+        return
+render_template("index.html")
 
         connection = get_db_connection()
         cursor = connection.cursor()
