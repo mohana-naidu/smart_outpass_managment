@@ -16,7 +16,7 @@ from functools import wraps
 # FLASK
 # ============================================================
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder=".")
 CORS(app)
 app.config["JSON_SORT_KEYS"] = False
 
