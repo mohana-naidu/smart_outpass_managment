@@ -1,4 +1,4 @@
-const ADMIN_API_URL = "http://127.0.0.1:5000";
+const ADMIN_API_URL =  "https://smart-outpass-management-5.onrender.com";
 
 function adminEscape(value) {
     const element = document.createElement("span");
