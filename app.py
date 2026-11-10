@@ -6170,7 +6170,7 @@ if __name__ == "__main__":
     print("SMART OUTPASS BACKEND")
     print("=" * 60)
     print(
-        "Server : "https://smart-outpass-management-430i.onrender.com";
+        "Server : "https://smart-outpass-management-5.onrender.com";
     )
     print(
         "Database : smart_outpass"
