@@ -6214,7 +6214,7 @@ if __name__ == "__main__":
     print()
 
     app.run(
-        host="127.0.0.1",
+        "https://smart-outpass-management-430i.onrender.com";
         port=5000,
         debug=True
     )
